@@ -14,8 +14,7 @@
 
 .content {
   display: flex;
-  width: 80%; /* Adjust width */
-  max-width: 900px;
+  width: 100%; /* Adjust width */
 }
 
 .text-section {
