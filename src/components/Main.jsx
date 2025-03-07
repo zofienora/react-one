@@ -1,8 +1,13 @@
 function Main() {
     return (
-      <main>
-        <p>This is a simple React website built with Vite.</p>
-        <button onClick={() => alert("You clicked me!")}>Click Me</button>
+      <main className="main-container">
+        <div className="content">
+          <div className="text-section">
+            <h2>Welcome to My Website</h2>
+            <p>This is a simple layout with text on the left and a placeholder on the right.</p>
+          </div>
+          <div className="image-placeholder"></div>
+        </div>
       </main>
     );
   }
